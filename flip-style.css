@@ -580,3 +580,117 @@ main {
   background-size: contain;
   background-repeat: no-repeat;
 }
+/* footer */
+.footer {
+  background-color: #181818;
+  padding: 2% 0;
+  font-size: 0.9em;
+  color: #fff;
+}
+.footer-container {
+  width: 85%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5%;
+  font-size: 0.9em;
+  line-height: 150%;
+}
+.footer-column {
+  flex: 1;
+  min-width: 16%;
+  margin: 1%;
+}
+.footer-column h3 {
+  margin-bottom: 5%;
+  font-size: 1em;
+  color: #bbb;
+  text-transform: uppercase;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-column ul li {
+  margin: 5% 0;
+}
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+.footer-bottom {
+  padding-top: 1%;
+  padding-bottom: 2%;
+  border-top: 1px solid #454d5e;
+  border-bottom: 1px solid #454d5e;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-bottom-part1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 5%;
+  font-size: 0.9em;
+}
+.footerbottomleft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 32vw;
+  color: #fdd835;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+.footer-bottom-part1 a:hover {
+  text-decoration: underline;
+}
+.footer-payment {
+  display: flex;
+  gap: 0.5vw;
+  padding-right: 5%;
+}
+.footer-payment img {
+  width: 2vw;
+  height: 3vh;
+}
+.vertical-line {
+  border-left: 1px solid #454d5e;
+  padding-left: 2%;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+}
+.social-container div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icon {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  background-color: white;
+  color: black;
+}
