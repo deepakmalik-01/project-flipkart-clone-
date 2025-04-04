@@ -345,8 +345,9 @@ main {
 }
 .textdivthreebox1 {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 10%;
   line-height: 150%;
 }
@@ -367,8 +368,9 @@ main {
 }
 .textdivthreebox2 {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 10%;
   line-height: 150%;
 }
@@ -389,8 +391,9 @@ main {
 }
 .textdivthreebox3 {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 10%;
   line-height: 150%;
 }
@@ -411,8 +414,9 @@ main {
 }
 .textdivthreebox4 {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 10%;
   line-height: 150%;
 }
@@ -433,8 +437,9 @@ main {
 }
 .textdivthreebox5 {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 10%;
   line-height: 150%;
 }
@@ -455,8 +460,9 @@ main {
 }
 .textdivthreebox6 {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 10%;
   line-height: 150%;
 }
@@ -477,8 +483,9 @@ main {
 }
 .textdivthreebox7 {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 10%;
   line-height: 150%;
 }
