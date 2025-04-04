@@ -2,6 +2,10 @@
   margin: 0px;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #f1f2f4; */
+}
+body {
+  overflow-x: hidden;
 }
 nav {
   display: flex;
@@ -47,6 +51,9 @@ nav {
   font-size: 1.3rem;
   font-weight: 100;
 }
+.phoneicon {
+  display: none;
+}
 .login {
   display: flex;
   justify-content: space-evenly;
@@ -76,4 +83,210 @@ nav {
 .becomeaseller {
   display: flex;
   gap: 0.5vw;
+}
+main {
+  height: calc(100vh - 50px);
+  width: 100%;
+  background-color: #f1f2f4;
+  padding: 1%;
+  box-sizing: border-box;
+}
+.divone {
+  height: 20vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  box-sizing: border-box;
+}
+.divone p {
+  display: flex;
+  flex-wrap: wrap;
+  width: 5vw;
+  text-align: center;
+  justify-content: center;
+}
+.divonebox1 {
+  height: 100%;
+  width: calc(10vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgbox1 {
+  height: 60%;
+  width: 40%;
+  background-image: url("imgbox1.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.textbox1 {
+  font-size: 0.9rem;
+  font-weight: 550;
+  padding-top: 1.5vh;
+}
+.divonebox2 {
+  height: 100%;
+  width: calc(10vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgbox2 {
+  height: 60%;
+  width: 40%;
+  background-image: url("imgbox2.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.textbox2 {
+  font-size: 0.9rem;
+  font-weight: 550;
+  padding-top: 1.5vh;
+}
+.divonebox3 {
+  height: 100%;
+  width: calc(10vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgbox3 {
+  height: 60%;
+  width: 40%;
+  background-image: url("imgbox3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.textbox3 {
+  font-size: 0.9rem;
+  font-weight: 550;
+  padding-top: 1.5vh;
+}
+.divonebox4 {
+  height: 100%;
+  width: calc(10vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgbox4 {
+  height: 60%;
+  width: 60%;
+  background-image: url("imgbox4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.textbox4 {
+  font-size: 0.9rem;
+  font-weight: 550;
+  padding-top: 1.5vh;
+}
+.divonebox5 {
+  height: 100%;
+  width: calc(10vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgbox5 {
+  height: 100%;
+  width: 50%;
+  background-image: url("imgbox5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.textbox5 {
+  font-size: 0.9rem;
+  font-weight: 550;
+  padding-top: 1.5vh;
+}
+.divonebox6 {
+  height: 100%;
+  width: calc(10vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgbox6 {
+  height: 60%;
+  width: 40%;
+  background-image: url("imgbox6.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.textbox6 {
+  font-size: 0.9rem;
+  font-weight: 550;
+  padding-top: 1.5vh;
+}
+.divonebox7 {
+  height: 100%;
+  width: calc(10vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgbox7 {
+  height: 60%;
+  width: 60%;
+  background-image: url("imgbox7.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.textbox7 {
+  font-size: 0.9rem;
+  font-weight: 550;
+  padding-top: 1.5vh;
+}
+.divonebox8 {
+  height: 100%;
+  width: calc(10vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgbox8 {
+  height: 60%;
+  width: 40%;
+  background-image: url("imgbox8.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.textbox8 {
+  font-size: 0.9rem;
+  font-weight: 550;
+  flex-wrap: wrap;
+  padding-top: 1.5vh;
+}
+.divonebox9 {
+  height: 100%;
+  width: calc(10vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgbox9 {
+  height: 70%;
+  width: 55%;
+  background-image: url("imgbox9.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.textbox9 {
+  font-size: 0.9rem;
+  font-weight: 550;
+  padding-top: 1.5vh;
 }
