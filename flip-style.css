@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 0.5vw 1vw;
+}
+.logobox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7%;
+  height: 100%;
+  background-image: url("logo.png");
+  background-size: cover;
+
+  /* background-color: black; */
+}
+.searchbar {
+  width: 50%;
+  background-color: #f0f5ff;
+  height: 70%;
+  display: flex;
+}
+#searchbutton {
+  height: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: auto;
+  border: none;
+  background-color: transparent;
+}
+#searchbox {
+  border: none;
+  border-color: none;
+  background-color: transparent;
+  height: 100%;
+  width: 94%;
+  outline: none;
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+.login {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.6vw;
+  padding: 3.5vh 1.5vw;
+  border-radius: 1vw;
+}
+.login:hover {
+  background-color: #2a55e5;
+}
+.login:hover #arrow {
+  animation: arrowrotation-on 1s forwards;
+}
+@keyframes arrowrotation-on {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+.cart {
+  display: flex;
+  gap: 0.5vw;
+}
+.becomeaseller {
+  display: flex;
+  gap: 0.5vw;
+}
